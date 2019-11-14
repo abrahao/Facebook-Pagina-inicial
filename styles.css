@@ -1,0 +1,57 @@
+.col-7{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;  
+     
+}
+.col{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;  
+}
+
+.facebook-logo{
+    width: 270px;
+    height: 170px;
+    left: 50pt;
+}
+
+.descricao-facebook{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+h2 {
+    font: 14px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  h2.background {
+    position: relative;
+    z-index: 1;
+  }
+  h2.background:before {
+    border-top: 2px solid #dfdfdf;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1;
+  }
+  h2.background span {
+    background: #fff;
+    padding: 0 15px;
+  }
+  h2.double:before {
+    border-top: none;
+  }
+  h2.no-background {
+    position: relative;
+    overflow: hidden;
+  }
